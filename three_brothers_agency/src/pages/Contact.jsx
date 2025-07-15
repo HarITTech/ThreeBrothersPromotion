@@ -18,7 +18,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:5000/send-contact', form);
+      const res = await axios.post('https://threebrotherspromotion.onrender.com/send-contact', form);
       alert('✅ Message sent successfully!');
       // Clear the form
       setForm({

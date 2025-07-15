@@ -26,7 +26,7 @@ const Footer = () => {
     }
 
     try {
-      await axios.post("http://localhost:5000/send-query", {
+      await axios.post("https://threebrotherspromotion.onrender.com/send-query", {
         name,
         email,
         query: queryText,
