@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: 'Helvetica', sans-serif;
+  background-image: url('../public/assests/bg_image_main.png'); /* use /public path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #1e293b; /* Tailwind's slate-800 */
+  scroll-behavior: smooth;
+  /* background-color: #ffffff43; 
+  backdrop-filter: blur(8px); 
+  -webkit-backdrop-filter: blur(8px); */
+}
+
+/* Hide scrollbar for all browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

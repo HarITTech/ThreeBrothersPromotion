@@ -1,0 +1,40 @@
+import React from "react";
+// import './assests/font.css';
+import './assests/font.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Portfolio from "./pages/Portfolio";
+import About from "./pages/About";
+import Team from "./pages/Team";
+import Contact from "./pages/Contact";
+import Strenths from "./pages/Strenths";
+
+function App() {
+  return (
+    <Router>
+      <div className="flex flex-col h-screen overflow-y-auto no-scrollbar ">
+      {/* <div className="w-screen"> */}
+        <Header />
+
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/our-work" element={<Strenths />} />
+          </Routes>
+        </main>
+
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+export default App;
