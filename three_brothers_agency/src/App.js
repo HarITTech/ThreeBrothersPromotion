@@ -11,11 +11,13 @@ import About from "./pages/About";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Strenths from "./pages/Strenths";
+import bgImage from "./assests/bg_image_main.png"
 
 function App() {
   return (
     <Router>
-      <div className="flex flex-col h-screen overflow-y-auto no-scrollbar ">
+      <div className="flex flex-col h-screen overflow-y-auto no-scrollbar z min-h-screen w-full bg-cover bg-no-repeat bg-center overflow-hidden"
+      style={{ backgroundImage: `url(${bgImage})` }}>
       {/* <div className="w-screen"> */}
         <Header />
 

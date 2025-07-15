@@ -100,8 +100,8 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center gap-5">
-          <div className="bg-[#ffffff] shadow-custom-4px py-auto content-center px-[35px] rounded-lg h-[42px]">
-            <nav className="nav-links gap-[35px] flex space-x-7 text-slate-700 text-[18px] font-helvetica">
+          <div className="bg-[#Fff] backdrop-blur shadow-custom-4px py-auto content-center px-[35px] rounded-lg h-[42px]">
+            <nav className="nav-links gap-[35px] item-center text-center flex space-x-7 text-slate-700 text-[18px] font-helvetica">
               {navItems.map((item) => (
                 <Link
                   key={item.path}
@@ -142,8 +142,8 @@ const Header = () => {
 
       {/* Mobile Menu Panel */}
       {isOpen && (
-        <div className="lg:hidden px-6 pt-4 pb-6 bg-white shadow-xl">
-          <nav className="flex flex-col gap-4 text-slate-700 text-[18px] font-helvetica">
+        <div className="lg:hidden px-6 pt-4 pb-6 bg-[#FEFEFE10] backdrop-blur shadow-xl h-[100vh]">
+          <nav className="flex flex-col gap-5 item-center text-center text-slate-700 text-[18px] font-helvetica">
             {navItems.map((item) => (
               <Link
                 key={item.path}
