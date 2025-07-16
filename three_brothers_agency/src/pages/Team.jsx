@@ -84,7 +84,10 @@ const Team = () => {
   ];
 
   return (
-    <div className='bg-[#FEFEFE45] backdrop-blur pb-[60px] border-b-[1px] border-[#eeeeeeb0]'>
+    <div className='bg-[#FEFEFE45] backdrop-blur pb-[60px] border-b-[1px] border-[#eeeeeeb0] text-center'>
+      <h1 className="text-[40px] font-helvetica-bold bg-gradient-to-b from-[#4543CC] via-[#955E7F] to-[#FF8800] text-transparent bg-clip-text py-[20px]">
+        Our Team
+      </h1>
 
       {teamMembers.map((member, index) => (
 

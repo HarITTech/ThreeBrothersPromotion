@@ -70,10 +70,10 @@ const Testimonial = () => {
     <div className='bg-[#FEFEFE45] backdrop-blur max-w-full pb-[40px]'>
       <section className="mb-24 mx-auto px-6 max-w-[90%]">
         <h3 className="section-heading text-center mb-12 text-[38px] font-helvetica">Testimonial</h3>
-        <div className="bg-[#ff6b0237] rounded-xl px-[60px] pt-[60px] pb-[40px] content-center items-center border border-[#ede6e0] shadow-lg justify-center flex flex-col">
-          <div className='relative grid grid-cols-1 sm:grid-cols-2 bg-[#fff] max-w-[90%] testimonial-slider gap-8 items-center justify-center content-center rounded-2xl'>
+        <div className="bg-[#ff6b0237] rounded-xl lg:px-[60px] lg:pt-[60px] lg:pb-[40px] p-[20px] content-center items-center border border-[#ede6e0] shadow-lg justify-center flex flex-col">
+          <div className='relative grid grid-cols-1 sm:grid-cols-2 bg-[#fff] lg:max-w-[90%] w-[100%] testimonial-slider gap-8 items-center justify-center content-center rounded-2xl'>
             {/* Image */}
-            <div className="bg-slate-400 rounded-2xl m-[1px] content-center items-center mxa-w-1/3 sm:w-full aspect-square" aria-label="Testimonial client portrait" role="img">
+            <div className="bg-slate-400 rounded-2xl m-[2px] content-center items-center max-w-1/3 sm:w-full aspect-square" aria-label="Testimonial client portrait" role="img">
               <img
                 src={image}
                 alt={alt}
@@ -86,8 +86,8 @@ const Testimonial = () => {
             </div>
 
             {/* Text */}
-            <div className="testimonial-text md:w-2/3 lg:w-2/3 sm:w-full px-6 pb-4 ">
-              <p className="text-[23px] italic leading-relaxed text-slate-900">{text}</p>
+            <div className="testimonial-text lg:w-[90%] w-full px-6 pb-4 ">
+              <p className="lg:text-[23px] text-[15px] italic leading-relaxed text-slate-900">{text}</p>
               <footer className="mt-6">
                 <p className="font-helvetica-bold text-[15px]">{name}</p>
                 <p className="text-slate-600 text-[15px]">{title}</p>
@@ -136,11 +136,11 @@ const Testimonial = () => {
           ))}
         </div>
 
-        <div className="text-center mt-6">
+        {/* <div className="text-center mt-6">
           <a href="#" className="text-orange-500 underline font-semibold hover:text-orange-700">
             Explore More..
           </a>
-        </div>
+        </div> */}
         </div>
 
       </section>

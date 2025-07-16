@@ -78,6 +78,14 @@ const Team = () => {
             </article>
           ))}
         </div>
+        <div className="text-center mt-8">
+          <a
+              href="/team"
+              className="text-orange-500 hover:underline text-[17px] font-semibold my-6 inline-block"
+            >
+              View All &gt;
+            </a>
+        </div>
       </section>
     </div>
   );

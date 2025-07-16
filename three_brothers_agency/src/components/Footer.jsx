@@ -5,6 +5,7 @@ import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import logo from '../assests/main_logo.png';
+import haritLogo from "../assests/HarIT_Tech_Logo.png";
 
 const Footer = () => {
   const location = useLocation();
@@ -49,7 +50,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#ff6b0223] backdrop-blur w-screen px-6 py-10">
+    <footer id="footer" className="bg-[#ff6b0223] backdrop-blur w-screen px-6 py-10">
       <ToastContainer position="bottom-center" autoClose={3000} />
 
       <div className="grid gap-[40px] grid-cols-1 md:grid-cols-2 sm:grid-cols-2 justify-center max-w-[90%] mx-auto items-start">
@@ -127,7 +128,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="flex justify-between items-center mt-[60px] text-xs max-w-[80%] mx-auto gap-4">
+      <div className="flex justify-between items-center mt-[60px] text-xs max-w-[80%] mx-auto gap-4 pb-8">
         <p>© 2025 Three Brothers Promotion. All Rights Reserved.</p>
         <nav className="flex gap-5">
           <FaInstagram className="h-[20px] w-[20px] transition duration-300 hover:brightness-150 hover:drop-shadow-[0_0_6px_#FF6B00] hover:text-[#FF6B00] hover:cursor-pointer" />
@@ -135,6 +136,28 @@ const Footer = () => {
           <FaXTwitter className="h-[20px] w-[20px] transition duration-300 hover:brightness-150 hover:drop-shadow-[0_0_6px_#FF6B00] hover:text-[#FF6B00] hover:cursor-pointer" />
         </nav>
       </div>
+
+      <div className="bg-transparent text-[#1e293b] text-center pt-6 border-t-[1px] border-[#eeeeeeb0]">
+        <p className="text-[14px] font-medium">
+          Built with <span className="text-yellow-400">🧡</span> by
+        </p>
+
+            <a href="https://harittech.in" target="_blank" rel="noopener noreferrer">
+        <div className="flex items-center justify-center gap-2 mt-[2px]">
+          <img
+            src={haritLogo}
+            alt="HarIT Tech Logo"
+            className="w-8 h-8 rounded-full"
+          />
+          <span className="text-[16px] font-semibold">HarIT Tech Solution</span>
+        </div>
+        </a>
+
+        <p className="mt-[2px] text-[12px] text-[#1e293b] font-light">
+          Digital transformation experts
+        </p>
+      </div>
+
     </footer>
   );
 };

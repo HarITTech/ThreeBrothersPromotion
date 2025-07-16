@@ -9,6 +9,8 @@ import socialMediaMarketing from '../assests/serviceImages/social media marketin
 // import socialMediaMarketingPack from '../assests/serviceImages/socialMediaMarketingPack.jpg';
 import website from '../assests/serviceImages/website.jpg';
 // import photography2 from '../assests/serviceImages/photography2.jpg';
+import emailMarketing from '../assests/serviceImages/emailMarketing.jpg';
+import mobileAppDev from '../assests/serviceImages/mobileAppDev.jpg'
 // import { Pencil } from "lucide-react";
 // import servicesData from "./servicesData";
 
@@ -32,7 +34,7 @@ const Services = () => {
       id: 2,
       title: "Pay-Per-Click (PPC) Advertising",
       tagline: "Drive traffic and boost your brand’s reach.",
-      image: "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5b9a5373-9c08-4c53-9723-f84ad6d24f28.png",
+      image: socialMediaMarketing,
       description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
     },
     {
@@ -52,16 +54,20 @@ const Services = () => {
     {
       id: 5,
       title: "Email Marketing",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+      tagline: "Connect. Convert. Grow — With Powerful Email Marketing!",
+      image: emailMarketing,
+      description: `Boost your business with result-driven email marketing solutions.
+From targeted campaigns to engaging designs, we help you convert leads into loyal customers.
+Partner with us to automate, track, and grow your brand through powerful email strategies.`,
     },
     {
       id: 6,
-      title: "Affiliate Marketing",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+      title: "Mobile App Development",
+      tagline: "Your Idea, Our Code — Apps That Inspire and Perform.",
+      image: mobileAppDev,
+      description: `Transform your vision into a powerful mobile app with our expert development team.
+We craft intuitive, high-performance apps for Android and iOS tailored to your business goals.
+From design to deployment, we build solutions that engage users and drive growth.`,
     },
     {
       id: 7,

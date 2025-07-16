@@ -6,7 +6,7 @@ import seoLogo from '../assests/seo_ads_service.png';
 const Services = () => {
   return (
     <div className='bg-[#FEFEFE45] backdrop-blur max-w-full pt-[20px] pb-[40px]'>
-      <section className="bg-[#dee3e936] backdrop-blur border border-[#fff] rounded-lg shadow-lg px-6 py-10 max-w-[90%] mx-auto mb-0 min-h-screen">
+      <section className="bg-[#dee3e936] backdrop-blur border border-[#fff] rounded-lg shadow-lg px-6 py-10 max-w-[90%] mx-auto mb-0 h-auto">
         {/* Heading & Description */}
         <div className="max-w-full mx-auto text-left mb-12">
           <p className='text-[#212640] text-[18px] font-helvetica-bold'>Services</p>
@@ -57,7 +57,7 @@ const Services = () => {
         {/* Footer Link */}
         <div className="text-center mt-8">
           <a
-            href="#"
+            href="/services"
             className="text-orange-500 underline font-semibold hover:text-orange-700"
           >
             Explore More..

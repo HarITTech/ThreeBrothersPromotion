@@ -19,7 +19,7 @@ const About = () => {
           What started as a small idea between three creatives has grown into a full-service digital agency trusted by brands across industries. We don’t just design and promote. <br /> — we elevate, innovate, and build meaningful digital impact.
         </p>
         <button className="bg-slate-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-900 shadow-lg transition duration-300">
-          Wanna know how!
+          <a href="tel:7020061418">Wanna know how!</a>
         </button>
         <p className="max-w-3xl mx-auto text-base sm:text-lg text-slate-700 mb-8 mt-4">
           Book a call for Consultancy and growth of your Company
@@ -52,9 +52,6 @@ const About = () => {
               <p className="font-semibold mb-4">— WE TURN IDEAS INTO IMPACT.</p>
               <p className="mb-2">🚀 MISSION: DELIVER DESIGN + DIGITAL EXCELLENCE FOR EVERY BRAND.</p>
               <p className="mb-4">🎯 VISION: TO BE THE MOST TRUSTED CREATIVE ALLY FOR BUSINESSES EVERYWHERE.</p>
-              <a href="/explore-more" className="text-blue-500 hover:underline">
-                EXPLORE MORE...
-              </a>
             </div>
           </div>
         </div>

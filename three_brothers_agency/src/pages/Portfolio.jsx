@@ -115,7 +115,7 @@ const Portfolio = () => {
           Stay ahead from the rest and growth beyond them.
         </h1>
         <button className="bg-slate-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-900 shadow-lg transition duration-300">
-          Book a Strategy Call
+          <a href="tel:7020061418">Book a Strategy Call</a>
         </button>
         <p className="max-w-3xl mx-auto text-base sm:text-lg text-slate-700 mb-8 mt-8">
           2+ years | Elite Brand | 30+ Core Ads per client <br />

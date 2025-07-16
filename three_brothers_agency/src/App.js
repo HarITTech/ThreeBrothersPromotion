@@ -12,13 +12,14 @@ import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import Strenths from "./pages/Strenths";
 import bgImage from "./assests/bg_image_main.png"
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
     <Router>
       <div className="flex flex-col h-screen overflow-y-auto no-scrollbar z min-h-screen w-full bg-cover bg-no-repeat bg-center overflow-hidden"
-      style={{ backgroundImage: `url(${bgImage})` }}>
-      {/* <div className="w-screen"> */}
+        style={{ backgroundImage: `url(${bgImage})` }}>
+        {/* <div className="w-screen"> */}
         <Header />
 
         <main className="flex-grow">
@@ -30,6 +31,7 @@ function App() {
             <Route path="/team" element={<Team />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/our-work" element={<Strenths />} />
+            <Route path="/testimonial" element={<Testimonial />} />
           </Routes>
         </main>
 

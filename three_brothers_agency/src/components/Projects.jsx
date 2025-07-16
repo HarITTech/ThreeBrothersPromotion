@@ -22,7 +22,7 @@ const Projects = () => {
               Our projects are crafted with a strong focus on converting potential customers and building brand growth.
             </p>
             <a
-              href="#"
+              href="/portfolio"
               className="text-orange-500 hover:underline font-semibold my-6 inline-block"
             >
               Portfolio &gt;
@@ -39,7 +39,7 @@ const Projects = () => {
               Each project undergoes careful execution focused on quality and client satisfaction.
             </p>
             <a
-              href="#"
+              href="/testimonial"
               className="text-orange-500 hover:underline font-semibold my-6 inline-block"
             >
               View &gt;
@@ -57,10 +57,10 @@ const Projects = () => {
               Let our work inspire you to break boundaries and meet project goals.
             </p>
             <a
-              href="#"
+              href="/#footer"
               className="text-orange-500 hover:underline font-semibold my-6 inline-block"
             >
-              Explore &gt;
+              Connect &gt;
             </a>
           </article>
         </div>

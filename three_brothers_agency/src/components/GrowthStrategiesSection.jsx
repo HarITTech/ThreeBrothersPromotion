@@ -1,6 +1,15 @@
 import React from 'react';
+// import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const GrowthStrategiesSection = () => {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/contact");
+  };
+
   return (
     <section className="bg-slate-900 text-white py-20 px-6 w-full">
       <h3 className="text-center text-[38px] mb-14 font-semibold max-w-3xl mx-auto">
@@ -19,7 +28,7 @@ const GrowthStrategiesSection = () => {
             <h4 className="font-helvetica text-[#fff] text-[23px] mb-2">Innovative Minds Crafting Unique Solutions for Your Business Challenges</h4>
             <p className="text-[#fff] text-[15px]">Explore how seamless service delivery from start to finish attracts more business and sales.</p>
           </div>
-          <a href="#" className="text-orange-400 hover:underline font-semibold inline-block">Learn &gt;</a>
+          <a href="/our-work" className="text-orange-400 hover:underline font-semibold inline-block">View &gt;</a>
         </article>
 
         {/* Strategy Card 2 */}
@@ -33,7 +42,7 @@ const GrowthStrategiesSection = () => {
             <h4 className="font-helvetica text-[#fff] text-[23px] mb-2">Dedicated Support Available 24/7 to Ensure Your Success and Satisfaction</h4>
             <p className="text-[#fff] text-[15px]">Our team is always ready to assist you for a smoother lifetime experience.</p>
           </div>
-          <a href="#" className="text-orange-400 hover:underline font-semibold inline-flex gap-3"><h5>Talk</h5> <h5>&gt;</h5></a>
+          <a href="tel:7020061418" className="text-orange-400 hover:underline font-semibold inline-flex gap-3"><h5>Talk</h5> <h5>&gt;</h5></a>
         </article>
 
         {/* Strategy Card 3 */}
@@ -47,7 +56,7 @@ const GrowthStrategiesSection = () => {
             <h4 className="font-helvetica text-[#fff] text-[23px] mb-2">Transform Your Vision into Reality with Our Expert Guidance and Support</h4>
             <p className="text-[#fff] text-[15px]">Let us help you navigate the complexities of your projects with ease.</p>
           </div>
-          <a href="#" className="text-orange-400 hover:underline font-semibold inline-block">Connect &gt;</a>
+          <a href="/#footer" className="text-orange-400 hover:underline font-semibold inline-block">Connect &gt;</a>
         </article>
       </div>
 
@@ -56,8 +65,11 @@ const GrowthStrategiesSection = () => {
         <h4 className="text-[48px] mb-4">Are You Ready to Grow?</h4>
         <p className="text-[18px] mb-8">Unlock your potential with our expert guidance and tailored strategies for success.</p>
         <div className="space-x-6">
-          <button className="btn-primary px-3 py-1 text-[#fff] bg-[#FF6B00] rounded-lg text-[16px] font-helvetica-bold shadow-custom-contact hover:shadow-custom-contact-h transition-shadow">Talk</button>
-          <button className="bg-[#ffffff41] hover:bg-[#ffffff50] px-3 py-1 text-[#fff] rounded-lg text-[16px] font-helvetica-bold shadow-custom-connect hover:shadow-custom-connect-h transition-shadow">Connect</button>
+          <button className="btn-primary px-3 py-1 text-[#fff] bg-[#FF6B00] rounded-lg text-[16px] font-helvetica-bold shadow-custom-contact hover:shadow-custom-contact-h transition-shadow"><a href="tel:7020061418">Talk</a></button>
+          <button className="bg-[#ffffff41] hover:bg-[#ffffff50] px-3 py-1 text-[#fff] rounded-lg text-[16px] font-helvetica-bold shadow-custom-connect hover:shadow-custom-connect-h transition-shadow" onClick={handleClick} >Connect</button>
+          {/* <Link to={"/contact"}>
+          <button className="bg-[#ffffff41] hover:bg-[#ffffff50] px-3 py-1 text-[#fff] rounded-lg text-[16px] font-helvetica-bold shadow-custom-connect hover:shadow-custom-connect-h transition-shadow" >Connect</button>
+          </Link> */}
         </div>
       </div>
     </section>
