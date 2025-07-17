@@ -18,11 +18,11 @@ const Services = () => {
 
   // servicesData.js
 
-  const servicesData = [ 
+  const servicesData = [
     {
       id: 1,
       title: "Search engine Optimization (SEO)",
-      tagline: "Boost Your Online Visibility – Get Found, Get Clicks, Get Results.",
+      tagline: "Boost Your Online Visibility - Get Found, Get Clicks, Get Results.",
       image: seoImg, // Update path as per your public folder
       description: `Take your digital presence to the next level with our trusted and reliable SEO services. From keyword optimization to technical SEO, we help your website rank higher on search engines, attract the right audience, and drive quality traffic that converts.
 
@@ -32,27 +32,13 @@ const Services = () => {
     },
     {
       id: 2,
-      title: "Pay-Per-Click (PPC) Advertising",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    },
-    {
-      id: 3,
       title: "Social Media Marketing (SMM)",
       tagline: "Build Your Brand Where It Matters – On Social Media.",
       image: socialMediaMarketing,
       description: `Boost your brand’s presence on Instagram and Facebook with our Social Media Marketing packages. From eye-catching reels and engaging stories to strategic Meta Ads and full page management, we offer everything you need to grow online. Plans start at just ₹6,999—perfect for any business looking to connect, engage, and convert.`,
     },
     {
-      id: 4,
-      title: "Content Marketing",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    },
-    {
-      id: 5,
+      id: 3,
       title: "Email Marketing",
       tagline: "Connect. Convert. Grow — With Powerful Email Marketing!",
       image: emailMarketing,
@@ -61,7 +47,7 @@ From targeted campaigns to engaging designs, we help you convert leads into loya
 Partner with us to automate, track, and grow your brand through powerful email strategies.`,
     },
     {
-      id: 6,
+      id: 4,
       title: "Mobile App Development",
       tagline: "Your Idea, Our Code — Apps That Inspire and Perform.",
       image: mobileAppDev,
@@ -70,75 +56,90 @@ We craft intuitive, high-performance apps for Android and iOS tailored to your b
 From design to deployment, we build solutions that engage users and drive growth.`,
     },
     {
-      id: 7,
-      title: "Influencer Marketing",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    },
-    {
-      id: 8,
-      title: "Video Marketing",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    },
-    {
-      id: 9,
-      title: "Video Editing",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    },
-    {
-      id: 10,
+      id: 5,
       title: "Photography",
       tagline: "Capture Moments That Tell Your Story.",
       image: photography,
       description: `Turn memories into masterpieces with our professional photography services. Whether it’s a wedding, birthday, product launch, or a candid moment, we bring creativity and clarity to every shot. Our team specializes in wedding, product, birthday, candid photography, and cinematography—ensuring every frame reflects perfection. Book now to make every moment timeless.`,
     },
     {
-      id: 11,
-      title: "Videography",
-      tagline: "Drive traffic and boost your brand’s reach.",
-      image: socialMediaMarketing,
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    },
-    {
-      id: 12,
+      id: 6,
       title: "E-commerce",
       tagline: "Skyrocket Your Sales on Every Marketplace.",
       image: eCom,
       description: `Take your online business to the next level with our expert e-commerce services. From product listing and optimization across all marketplaces to complete order fulfillment, competitor research, and sales strategy—everything you need to grow is in one place. We also help you with daily inventory tracking and business planning, so you stay ahead of trends and maximize profit. Let us handle the backend while you focus on scaling up.`,
     },
     {
-      id: 13,
+      id: 7,
       title: "Website Development",
       tagline: "Build Your Online Presence, One Click at a Time.",
       image: website,
       description: `We design professional websites tailored to your business needs—whether it's a simple static site or a fully dynamic one. Our packages include hosting, domain, updating services, email notifications, and backend integration for dynamic sites. With affordable pricing and complete support, we ensure your website not only looks great but performs seamlessly. Let us turn your online vision into reality.`,
     },
     {
-      id: 14,
+      id: 8,
       title: "Cyber Security",
       tagline: "Your Security, Our Priority.",
       image: cyberSecurity,
       description: `Protect your business from cyber threats with our expert cybersecurity solutions. We offer end-to-end services including network security, vulnerability assessment, phishing protection, malware awareness, and SEIM operations. Whether you’re on Windows or Linux, our team ensures your systems remain secure and your data protected—because your business deserves peace of mind.`,
     },
     {
-      id: 15,
+      id: 9,
       title: "Google Ads",
       tagline: "Maximize Every Click with Strategic Google Ads!",
       image: googleAds,
       description: `Drive instant traffic and quality leads with our expert Google Ads management. From keyword research to strategy, campaign setup, tracking, and optimization — we ensure your ads reach the right audience at the right time. Our goal is simple: get you the best ROI with data-driven ad performance.`,
     },
     {
-      id: 16,
+      id: 10,
       title: "Graphic Design",
       tagline: "Creative Designs That Define Your Brand!",
       image: graphicDesign,
       description: `From logos to brochures, our graphic design services cover everything your brand needs to stand out. Whether it’s social media creatives, business cards, or marketing materials, we bring visual ideas to life that leave a lasting impression and boost your brand identity.`,
     },
+    // {
+    //   id: 6,
+    //   title: "Influencer Marketing",
+    //   tagline: "Drive traffic and boost your brand’s reach.",
+    //   image: socialMediaMarketing,
+    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+    // },
+    // {
+    //   id: 3,
+    //   title: "Content Marketing",
+    //   tagline: "Drive traffic and boost your brand’s reach.",
+    //   image: socialMediaMarketing,
+    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+    // },
+    // {
+    //   id: 2,
+    //   title: "Pay-Per-Click (PPC) Advertising",
+    //   tagline: "Drive traffic and boost your brand’s reach.",
+    //   image: socialMediaMarketing,
+    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+    // },
+    // {
+    //   id: 8,
+    //   title: "Video Marketing",
+    //   tagline: "Drive traffic and boost your brand’s reach.",
+    //   image: socialMediaMarketing,
+    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+    // },
+    // {
+    //   id: 9,
+    //   title: "Video Editing",
+    //   tagline: "Drive traffic and boost your brand’s reach.",
+    //   image: socialMediaMarketing,
+    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+    // },
+    
+    // {
+    //   id: 11,
+    //   title: "Videography",
+    //   tagline: "Drive traffic and boost your brand’s reach.",
+    //   image: socialMediaMarketing,
+    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
+    // },
   ];
 
   return (
