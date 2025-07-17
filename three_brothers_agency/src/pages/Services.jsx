@@ -132,14 +132,6 @@ From design to deployment, we build solutions that engage users and drive growth
     //   image: socialMediaMarketing,
     //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
     // },
-    
-    // {
-    //   id: 11,
-    //   title: "Videography",
-    //   tagline: "Drive traffic and boost your brand’s reach.",
-    //   image: socialMediaMarketing,
-    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    // },
   ];
 
   return (
