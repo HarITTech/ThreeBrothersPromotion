@@ -107,8 +107,8 @@ const Header = () => {
                   key={item.path}
                   to={item.path}
                   className={`relative transition-colors ${currentPath === item.path
-                    ? "text-[#10141a] after:content-[''] after:absolute after:-bottom-[2px] after:left-[0px] after:w-full after:h-[3px] after:bg-[#0087F9]"
-                    : "hover:text-[#10141a]"
+                    ? "text-[#090c0f] font-helvetica-bold after:content-[''] after:absolute after:-bottom-[2px] after:left-[0px] after:w-full after:h-[3px] after:bg-[#0087F9]"
+                    : "hover:text-[#0087F9] hover:font-helvetica-bold"
                     }`}
                 >
                   {item.label}
@@ -142,16 +142,16 @@ const Header = () => {
 
       {/* Mobile Menu Panel */}
       {isOpen && (
-        <div className="lg:hidden px-6 pt-4 pb-6 bg-[#FEFEFE10] backdrop-blur shadow-xl h-[100vh]">
+        <div className="lg:hidden px-6 pt-4 pb-6 bg-[#fefefe00] backdrop-blur shadow-xl h-[100vh]">
           <nav className="flex flex-col gap-5 item-center text-center text-slate-700 text-[18px] font-helvetica">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
                 onClick={closeMenu}
-                className={`transition-colors ${currentPath === item.path
-                  ? "text-[#10141a]"
-                  : "hover:text-[#10141a]"
+                className={`relative transition-colors ${currentPath === item.path
+                  ? "text-[#090c0f] font-helvetica-bold"
+                  : "hover:text-[#0087F9] hover:font-helvetica-bold"
                   }`}
               >
                 {item.label}
