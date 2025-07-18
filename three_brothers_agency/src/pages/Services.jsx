@@ -6,11 +6,12 @@ import googleAds from '../assests/serviceImages/google ads.jpg';
 import graphicDesign from '../assests/serviceImages/graphicDesign.jpg';
 import photography from '../assests/serviceImages/photography.jpg';
 import socialMediaMarketing from '../assests/serviceImages/social media marketing.jpg';
-// import socialMediaMarketingPack from '../assests/serviceImages/socialMediaMarketingPack.jpg';
 import website from '../assests/serviceImages/website.jpg';
-// import photography2 from '../assests/serviceImages/photography2.jpg';
 import emailMarketing from '../assests/serviceImages/emailMarketing.jpg';
-import mobileAppDev from '../assests/serviceImages/mobileAppDev.jpg'
+import mobileAppDev from '../assests/serviceImages/mobileAppDev.jpg';
+import influencerMarketing from '../assests/serviceImages/influencerMarketing.jpg';
+import contentMarketing from '../assests/serviceImages/contentMarketing.jpg';
+import whatsappMarketing from '../assests/serviceImages/whatsappMarketing.jpg';
 // import { Pencil } from "lucide-react";
 // import servicesData from "./servicesData";
 
@@ -97,27 +98,27 @@ From design to deployment, we build solutions that engage users and drive growth
       image: graphicDesign,
       description: `From logos to brochures, our graphic design services cover everything your brand needs to stand out. Whether it’s social media creatives, business cards, or marketing materials, we bring visual ideas to life that leave a lasting impression and boost your brand identity.`,
     },
-    // {
-    //   id: 6,
-    //   title: "Influencer Marketing",
-    //   tagline: "Drive traffic and boost your brand’s reach.",
-    //   image: socialMediaMarketing,
-    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    // },
-    // {
-    //   id: 3,
-    //   title: "Content Marketing",
-    //   tagline: "Drive traffic and boost your brand’s reach.",
-    //   image: socialMediaMarketing,
-    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    // },
-    // {
-    //   id: 2,
-    //   title: "Pay-Per-Click (PPC) Advertising",
-    //   tagline: "Drive traffic and boost your brand’s reach.",
-    //   image: socialMediaMarketing,
-    //   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s...`,
-    // },
+    {
+      id: 11,
+      title: "Influencer Marketing",
+      tagline: "Turn Influence into Impact.",
+      image: influencerMarketing,
+      description: `Boost your brand visibility with our influencer marketing services. We connect you with the right influencers, manage campaigns, and create content that builds trust and drives engagement. Perfect for reaching your audience on platforms like Instagram and YouTube.`,
+    },
+    {
+      id: 12,
+      title: "Content Marketing",
+      tagline: "Create. Connect. Convert.",
+      image: contentMarketing,
+      description: `We help your brand grow with smart content that engages and converts. From planning strategies to using videos, paid ads, and trends, we create content that connects with your audience. Our team also tracks performance to ensure continuous improvement and better results.`,
+    },
+    {
+      id: 13,
+      title: "WhatsApp Marketing",
+      tagline: "Reach Your Audience Where They Are.",
+      image: whatsappMarketing,
+      description: `Connect with customers instantly using our WhatsApp marketing services. We help you send promotions, updates, and personalized messages with ease. Share rich media and build stronger customer relationships through the world’s most used messaging app.`,
+    },
     // {
     //   id: 8,
     //   title: "Video Marketing",
