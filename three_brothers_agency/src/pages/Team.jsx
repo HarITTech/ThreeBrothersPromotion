@@ -6,12 +6,15 @@ import { FaXTwitter } from "react-icons/fa6";
 import adityaYelane from '../assests/teamMembers/Aditya yelane.jpg'
 import deepakVerma from '../assests/teamMembers/Deepak Verma.jpg'
 import expertOfSeo from '../assests/teamMembers/Expert of seo.jpg'
-import joelUgade from '../assests/teamMembers/Joel ugade.jpg'
+// import joelUgade from '../assests/teamMembers/Joel ugade.jpg'
 import prathmeshTekale from '../assests/teamMembers/Prathmesh Tekale.jpg'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import vanshNaik from '../assests/teamMembers/Vansh naik.jpg'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9a7d3653cef7f2266969a595bf1f9a5c4e54f0f4
 
 
 const Team = () => {
