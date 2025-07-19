@@ -33,13 +33,20 @@ const teamMembers = [
     img: sanketDandekar,
     alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
   },
+  // {
+  //   name: 'Piyush Ninawe',
+  //   role: 'Software Service Provider',
+  //   description: 'Piyush builds responsive websites, Apps and Provide Software Services that offer exceptional user experiences.',
+  //   img: piyushNinawe,
+  //   alt: 'Portrait of Piyush Ninawe, Web Developer, relaxed photo with casual clothing and soft background',
+  // },
   {
-    name: 'Piyush Ninawe',
-    role: 'Software Service Provider',
-    description: 'Piyush builds responsive websites, Apps and Provide Software Services that offer exceptional user experiences.',
-    img: piyushNinawe,
-    alt: 'Portrait of Piyush Ninawe, Web Developer, relaxed photo with casual clothing and soft background',
-  },
+      name: 'Kasturi Nisal',
+      role: 'SEO & Google Ads Expert',
+      description: 'An expert in Search Engine Optimization (SEO) and Google Ads, they specialize in boosting online visibility and driving targeted traffic. With data-driven strategies, they help businesses rank higher on search engines and run high-performing ad campaigns that deliver measurable results.',
+      img: expertOfSeo,
+      alt: 'Kasturi nisal',
+    },
 ];
 
 const Team = () => {
