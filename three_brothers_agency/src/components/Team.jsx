@@ -8,11 +8,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import adityaYelane from '../assests/teamMembers/Aditya yelane.jpg'
-<<<<<<< HEAD
+
 import expertOfSeo from '../assests/teamMembers/Expert of seo.jpg'
-=======
-import deepakVerma from '../assests/teamMembers/Deepak Verma.jpg'
->>>>>>> 9a7d3653cef7f2266969a595bf1f9a5c4e54f0f4
+
+// import deepakVerma from '../assests/teamMembers/Deepak Verma.jpg'
+
 
 
 const teamMembers = [
@@ -38,21 +38,20 @@ const teamMembers = [
     alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
   },
   {
-<<<<<<< HEAD
       name: 'Kasturi Nisal',
       role: 'SEO & Google Ads Expert',
       description: 'An expert in Search Engine Optimization (SEO) and Google Ads, they specialize in boosting online visibility and driving targeted traffic. With data-driven strategies, they help businesses rank higher on search engines and run high-performing ad campaigns that deliver measurable results.',
       img: expertOfSeo,
       alt: 'Kasturi nisal',
     },
-=======
-        name: 'Deepak Verma',
-        role: 'Multimedia Specialist',
-        description: 'Deepak Verma is a talented multimedia specialist with a passion for visual storytelling. He combines video editing, animation, motion graphics, and sound design to create impactful content that aligns with brand goals and captivates audiences.',
-        img: deepakVerma,
-        alt: 'Deepak Verma',
-      },
->>>>>>> 9a7d3653cef7f2266969a595bf1f9a5c4e54f0f4
+    // {
+    //     name: 'Deepak Verma',
+    //     role: 'Multimedia Specialist',
+    //     description: 'Deepak Verma is a talented multimedia specialist with a passion for visual storytelling. He combines video editing, animation, motion graphics, and sound design to create impactful content that aligns with brand goals and captivates audiences.',
+    //     img: deepakVerma,
+    //     alt: 'Deepak Verma',
+    //   },
+
 ];
 
 const Team = () => {

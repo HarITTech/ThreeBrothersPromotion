@@ -1,11 +1,12 @@
 import React from 'react'
 
-import serviceGroups from "./WorkData";
+import servicesGroups from "./WorkData";
 
+console.log("servicesGroups", servicesGroups);
 
 
 const Strenths = () => {
-
+  
   return (
     <div className='bg-[#FEFEFE45] backdrop-blur pb-[40px] border-b-[1px] border-[#eeeeeeb0] font-helvetica min-h-screen text-black'>
       <section className="text-center items-center py-6 px-4">
@@ -13,8 +14,8 @@ const Strenths = () => {
         <h1 className="text-[40px] font-helvetica-bold bg-gradient-to-b from-[#4543CC] via-[#955E7F] to-[#FF8800] text-transparent bg-clip-text mb-[40px]">
         Our Work
       </h1>
-
-        {serviceGroups?.map((group, index) => (
+ 
+        {servicesGroups?.map((group, index) => (
           <div key={index} className="mb-[60px] bg-[#dee3e936] backdrop-blur border border-[#fff] rounded-lg shadow-lg px-6 pb-10 pt-6 max-w-[90%] mx-auto h-auto">
             <h3 className="text-[28px] font-semibold mb-[30px]">{group.category}</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">

@@ -85,9 +85,11 @@ import thumbnail7 from '../assests/strenths/banner/thumbnail7.jpg'
 import jioMart1 from '../assests/strenths/banner/jioMart1.jpg'
 import jioMart2 from '../assests/strenths/banner/jioMart2.jpg'
 import jioMart3 from '../assests/strenths/banner/jioMart3.jpg'
-import jioMart4 from '../assests/strenths/banner/jioMart4.jpg'
+// import jioMart4 from '../assests/strenths/banner/jioMart4.jpg'
+import jioMart5 from '../assests/strenths/banner/jioMart5.jpg'
+ 
 
-const serviceGroups = [
+const servicesGroups = [
   {
     category: "Political Banners",
     services: [
@@ -399,30 +401,6 @@ const serviceGroups = [
         aspect: "4/5"
       },
       {
-        image: kohinoor9,
-        title: "",
-        label: "",
-        aspect: "4/5"
-      },
-      {
-        image: kohinoor10,
-        title: "",
-        label: "",
-        aspect: "4/5"
-      },
-      {
-        image: kohinoor11,
-        title: "",
-        label: "",
-        aspect: "4/5"
-      },
-      {
-        image: kohinoor12,
-        title: "",
-        label: "",
-        aspect: "4/5"
-      },
-      {
         image: kohinoor13,
         title: "",
         label: "",
@@ -447,28 +425,52 @@ const serviceGroups = [
         aspect: "4/5"
       },
       {
+        image: kohinoor9,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: kohinoor10,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: kohinoor11,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: kohinoor12,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
         image: kohinoor17,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: kohinoor18,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: kohinoor19,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: kohinoor20,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: kohinoor,
@@ -566,68 +568,51 @@ const serviceGroups = [
         image: thumbnail1,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: thumbnail2,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: thumbnail3,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: thumbnail4,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "5/3"
       },
       {
         image: thumbnail5,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "9/16"
       },
       {
         image: thumbnail6,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "9/16"
       },
       {
         image: thumbnail7,
         title: "",
         label: "",
-        aspect: "4/5"
+        aspect: "9/16"
       },
     ]
   },
   {
     category: "Jio Mart",
-    servcies: [
+    services: [
       {
-        image: jioMart1,
-        title: "",
-        label: "",
-      },
-      {
-        image: jioMart2,
-        title: "",
-        label: "",
-        aspect: "4/5"
-      },
-      {
-        image: jioMart3,
-        title: "",
-        label: "",
-        aspect: "4/5"
-      },
-      {
-        image: jioMart4,
+        image: jioMart5,
         title: "",
         label: "",
         aspect: "4/5"
@@ -638,6 +623,31 @@ const serviceGroups = [
         label: "",
         aspect: "1/1"
       },
+      {
+        image: jioMart2,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: jioMart1,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: jioMart3,
+        title: "",
+        label: "",
+        aspect: "9/16"
+      },
+      // {
+      //   image: jioMart4,
+      //   title: "",
+      //   label: "",
+      //   aspect: "9/16"
+      // },
+      
     ]
   },
   {
@@ -666,4 +676,4 @@ const serviceGroups = [
 ];
 
 
-export default serviceGroups
+export default servicesGroups
