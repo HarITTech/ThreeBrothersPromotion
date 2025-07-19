@@ -6,12 +6,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import adityaYelane from '../assests/teamMembers/Aditya yelane.jpg'
 import deepakVerma from '../assests/teamMembers/Deepak Verma.jpg'
 import expertOfSeo from '../assests/teamMembers/Expert of seo.jpg'
-import joelUgade from '../assests/teamMembers/Joel ugade.jpg'
+// import joelUgade from '../assests/teamMembers/Joel ugade.jpg'
 import prathmeshTekale from '../assests/teamMembers/Prathmesh Tekale.jpg'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import vanshNaik from '../assests/teamMembers/Vansh naik.jpg'
-import piyushNinawe from '../assests/teamMembers/Piyush Ninawe.jpg'
 
 
 const Team = () => {
@@ -40,13 +39,6 @@ const Team = () => {
       alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
     },
     {
-      name: 'Piyush Ninawe',
-      role: 'Software Service Provider',
-      description: 'Piyush builds responsive websites, Apps and Provide Software Services that offer exceptional user experiences.',
-      img: piyushNinawe,
-      alt: 'Portrait of Piyush Ninawe, Web Developer, relaxed photo with casual clothing and soft background',
-    },
-    {
       name: 'Deepak Verma',
       role: 'Multimedia Specialist',
       description: 'Deepak Verma is a creative powerhouse with a passion for visual storytelling. As a skilled multimedia specialist, he expertly blends video editing, motion graphics, animation, and sound design to produce high-impact content that captures attention and delivers results. Whether it is for promotional campaigns, social media, or brand identity, Deepak ensures every project is visually stunning and strategically aligned with the brand’s goals.',
@@ -60,13 +52,13 @@ const Team = () => {
       img: expertOfSeo,
       alt: 'Kasturi nisal',
     },
-    {
-      name: 'Joel Ugade',
-      role: 'Graphic Design Expert',
-      description: 'Joel Ugade is a creative graphic designer who transforms ideas into eye-catching visuals. With a strong sense of branding and design, he creates logos, banners, and marketing content that make a lasting impact.',
-      img: joelUgade,
-      alt: 'Joel Ugade',
-    },
+    // {
+    //   name: 'Joel Ugade',
+    //   role: 'Graphic Design Expert',
+    //   description: 'Joel Ugade is a creative graphic designer who transforms ideas into eye-catching visuals. With a strong sense of branding and design, he creates logos, banners, and marketing content that make a lasting impact.',
+    //   img: joelUgade,
+    //   alt: 'Joel Ugade',
+    // },
     {
       name: 'Prathmesh Tekale',
       role: 'Cybersecurity Expert',

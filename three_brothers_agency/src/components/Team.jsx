@@ -1,14 +1,14 @@
 import React from 'react';
-import linkedInIcon from '../assests/linkedIn_icon.png';
-import xIcon from '../assests/x_icon.png';
-import instaIcon from '../assests/insta_icon.png';
+// import linkedInIcon from '../assests/linkedIn_icon.png';
+// import xIcon from '../assests/x_icon.png';
+// import instaIcon from '../assests/insta_icon.png';
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
-import piyushNinawe from '../assests/teamMembers/Piyush Ninawe.jpg'
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import adityaYelane from '../assests/teamMembers/Aditya yelane.jpg'
+import deepakVerma from '../assests/teamMembers/Deepak Verma.jpg'
 
 
 const teamMembers = [
@@ -34,12 +34,12 @@ const teamMembers = [
     alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
   },
   {
-    name: 'Piyush Ninawe',
-    role: 'Software Service Provider',
-    description: 'Piyush builds responsive websites, Apps and Provide Software Services that offer exceptional user experiences.',
-    img: piyushNinawe,
-    alt: 'Portrait of Piyush Ninawe, Web Developer, relaxed photo with casual clothing and soft background',
-  },
+        name: 'Deepak Verma',
+        role: 'Multimedia Specialist',
+        description: 'Deepak Verma is a talented multimedia specialist with a passion for visual storytelling. He combines video editing, animation, motion graphics, and sound design to create impactful content that aligns with brand goals and captivates audiences.',
+        img: deepakVerma,
+        alt: 'Deepak Verma',
+      },
 ];
 
 const Team = () => {
