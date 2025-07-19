@@ -5,10 +5,10 @@ import instaIcon from '../assests/insta_icon.png';
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
-import piyushNinawe from '../assests/teamMembers/Piyush Ninawe.jpg'
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import adityaYelane from '../assests/teamMembers/Aditya yelane.jpg'
+import expertOfSeo from '../assests/teamMembers/Expert of seo.jpg'
 
 
 const teamMembers = [
@@ -33,13 +33,6 @@ const teamMembers = [
     img: sanketDandekar,
     alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
   },
-  // {
-  //   name: 'Piyush Ninawe',
-  //   role: 'Software Service Provider',
-  //   description: 'Piyush builds responsive websites, Apps and Provide Software Services that offer exceptional user experiences.',
-  //   img: piyushNinawe,
-  //   alt: 'Portrait of Piyush Ninawe, Web Developer, relaxed photo with casual clothing and soft background',
-  // },
   {
       name: 'Kasturi Nisal',
       role: 'SEO & Google Ads Expert',
