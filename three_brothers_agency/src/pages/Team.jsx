@@ -11,7 +11,7 @@ import prathmeshTekale from '../assests/teamMembers/Prathmesh Tekale.jpg'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import vanshNaik from '../assests/teamMembers/Vansh naik.jpg'
-import piyushNinawe from '../assests/teamMembers/Piyush Ninawe.jpg'
+
 
 
 const Team = () => {
@@ -38,13 +38,6 @@ const Team = () => {
       description: 'Sanket Dandekar is a specialist in e-commerce solutions, helping brands grow across digital marketplaces with smart strategies, optimized listings, and seamless order management.',
       img: sanketDandekar,
       alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
-    },
-    {
-      name: 'Piyush Ninawe',
-      role: 'Software Service Provider',
-      description: 'Piyush builds responsive websites, Apps and Provide Software Services that offer exceptional user experiences.',
-      img: piyushNinawe,
-      alt: 'Portrait of Piyush Ninawe, Web Developer, relaxed photo with casual clothing and soft background',
     },
     {
       name: 'Deepak Verma',
