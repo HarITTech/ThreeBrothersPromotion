@@ -60,13 +60,13 @@ const Team = () => {
       img: expertOfSeo,
       alt: 'Kasturi nisal',
     },
-    {
-      name: 'Joel Ugade',
-      role: 'Graphic Design Expert',
-      description: 'Joel Ugade is a creative graphic designer who transforms ideas into eye-catching visuals. With a strong sense of branding and design, he creates logos, banners, and marketing content that make a lasting impact.',
-      img: joelUgade,
-      alt: 'Joel Ugade',
-    },
+    // {
+    //   name: 'Joel Ugade',
+    //   role: 'Graphic Design Expert',
+    //   description: 'Joel Ugade is a creative graphic designer who transforms ideas into eye-catching visuals. With a strong sense of branding and design, he creates logos, banners, and marketing content that make a lasting impact.',
+    //   img: joelUgade,
+    //   alt: 'Joel Ugade',
+    // },
     {
       name: 'Prathmesh Tekale',
       role: 'Cybersecurity Expert',
