@@ -7,11 +7,12 @@ app.use(cors());
 app.use(express.json());
 
 // Email transporter setup
+// testing
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "adityahedau293@gmail.com",
-    pass: "vuokrxgnzeegeaeu", // Gmail App Password
+    user: "threebrotherspromotion@gmail.com",
+    pass: "ucbwipezikufycnp", // Gmail App Password
   },
 });
 
@@ -20,8 +21,8 @@ app.post("/send-query", async (req, res) => {
   const { name, email, query } = req.body;
 
   const mailOptions = {
-    from: "adityahedau293@gmail.com",
-    to: "adityahedau293@gmail.com",
+    from: `"${name}" <${email}>`,
+    to: "threebrotherspromotion@gmail.com",
     subject: "📨 New Query from Footer",
     text: `
 You received a new query from the footer:
@@ -49,14 +50,14 @@ app.post("/send-contact", async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "adityahedau293@gmail.com",
-      pass: "vuokrxgnzeegeaeu", // Gmail App Password
+      user: "threebrotherspromotion@gmail.com",
+      pass: "ucbwipezikufycnp", // Gmail App Password
     },
   });
 
   const mailOptions = {
-    from: "adityahedau293@gmail.com",
-    to: "adityahedau293@gmail.com",
+    from: `"${name}" <${email}>`,
+    to: "threebrotherspromotion@gmail.com",
     subject: "📬 New Contact Query Received",
     text: `You received a new contact message:
 
