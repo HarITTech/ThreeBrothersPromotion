@@ -50,7 +50,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer id="footer" className="bg-[#ff6b0223] backdrop-blur w-screen px-6 py-10">
+    <footer id="footer" className="bg-[#ff6b0223] backdrop-blur w-screen px-6 pt-10 pb-4">
       <ToastContainer position="bottom-center" autoClose={3000} />
 
       <div className="grid gap-[40px] grid-cols-1 md:grid-cols-2 sm:grid-cols-2 justify-center max-w-[90%] mx-auto items-start">
