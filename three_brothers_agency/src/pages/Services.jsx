@@ -12,6 +12,7 @@ import mobileAppDev from '../assests/serviceImages/mobileAppDev.jpg';
 import influencerMarketing from '../assests/serviceImages/influencerMarketing.jpg';
 import contentMarketing from '../assests/serviceImages/contentMarketing.jpg';
 import whatsappMarketing from '../assests/serviceImages/whatsappMarketing.jpg';
+import affiliateImg from '../assests/serviceImages/A_M.png';
 // import { Pencil } from "lucide-react";
 // import servicesData from "./servicesData";
 
@@ -119,6 +120,19 @@ From design to deployment, we build solutions that engage users and drive growth
       image: whatsappMarketing,
       description: `Connect with customers instantly using our WhatsApp marketing services. We help you send promotions, updates, and personalized messages with ease. Share rich media and build stronger customer relationships through the world’s most used messaging app.`,
     },
+    {
+      id: 14,
+      title: "Affiliate Marketing",
+      tagline: "Earn by Referring - Simple, Scalable, and Profitable.",
+      image: affiliateImg, // Replace with actual image path
+      description: `Affiliate Marketing is a performance-based strategy where you (the affiliate) earn commissions by promoting other companies' products. Just place affiliate links on your website, and when a customer clicks and makes a purchase, you get paid!
+
+🔗 Whether it's Amazon, Flipkart, Meesho, or more—leverage top platforms to generate passive income.
+
+💸 Ideal for bloggers, influencers, and digital marketers looking to monetize their content. No product handling, no inventory—just smart promotion.
+
+✨ Start affiliate marketing today with Three Brothers Promotion and turn your traffic into revenue.`,
+    }
     // {
     //   id: 8,
     //   title: "Video Marketing",
