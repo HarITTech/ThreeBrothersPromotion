@@ -4,14 +4,22 @@ import chetana from '../assests/strenths/logos/chetana.jpg'
 import gym from '../assests/strenths/logos/gym.jpg'
 import jioMart from '../assests/strenths/logos/jioMart.jpg'
 import kohinoor from '../assests/strenths/logos/kohinoor.jpg'
-import mejwani from '../assests/strenths/logos/mejwani.jpg'
 import oxford from '../assests/strenths/logos/oxford.jpg'
 import phoenix from '../assests/strenths/logos/phoenix.jpg'
 import politics from '../assests/strenths/logos/politics.jpg'
 import sahil from '../assests/strenths/logos/sahil.jpg'
 import shareMarket from '../assests/strenths/logos/shareMarket.jpg'
 import waves from '../assests/strenths/logos/waves.jpg'
+import mejwani from '../assests/strenths/logos/mejwani.jpg'
 
+import Mejwan1 from '../assests/strenths/banner/Mejwan1.jpg'
+// import Mejwan2 from '../assests/strenths/banner/Mejwan2.jpg'
+import Mejwan3 from '../assests/strenths/banner/Mejwan3.png'
+import Mejwan4 from '../assests/strenths/banner/Mejwan4.jpg'
+import Mejwan7 from '../assests/strenths/banner/Mejwan7.jpg'
+import Mejwan8 from '../assests/strenths/banner/Mejwan8.jpg'
+import Mejwan6 from '../assests/strenths/banner/Mejwan6.png'
+import Mejwan5 from '../assests/strenths/banner/Mejwan5.png'
 import politics1 from '../assests/strenths/banner/politics1.jpg'
 import politics2 from '../assests/strenths/banner/politics2.jpg'
 import politics3 from '../assests/strenths/banner/politics3.jpg'
@@ -75,6 +83,7 @@ import shareMarket2 from '../assests/strenths/banner/shareMarket2.jpg'
 import shareMarket3 from '../assests/strenths/banner/shareMarket3.jpg'
 import AEH1 from '../assests/strenths/banner/AEH1.jpg'
 import AEH2 from '../assests/strenths/banner/AEH2.jpg'
+import AEH3 from '../assests/strenths/banner/AEH3.png'
 import thumbnail1 from '../assests/strenths/banner/thumbnail1.jpg'
 import thumbnail2 from '../assests/strenths/banner/thumbnail2.jpg'
 import thumbnail3 from '../assests/strenths/banner/thumbnail3.jpg'
@@ -554,6 +563,12 @@ const servicesGroups = [
         aspect: "4/5"
       },
       {
+        image: AEH3,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
         image: AEH,
         title: "",
         label: "",
@@ -650,6 +665,59 @@ const servicesGroups = [
       
     ]
   },
+    {
+    category: "Mejwani Masale",
+    services: [
+      {
+        image: Mejwan1,
+        title: "",
+        label: "",
+        aspect: "9/16"
+      },
+      {
+        image: Mejwan4,
+        title: "",
+        label: "",
+        aspect: "9/16"
+      },
+      {
+        image: Mejwan7,
+        title: "",
+        label: "",
+        aspect: "9/16"
+      },
+      {
+        image: Mejwan8,
+        title: "",
+        label: "",
+        aspect: "9/16"
+      },
+      {
+        image: Mejwan3,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: Mejwan5,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: Mejwan6,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: mejwani,
+        title: "",
+        label: "",
+        aspect: "1/1"
+      },
+    ]
+  },
   {
     category: "Other Logos",
     services: [
@@ -661,12 +729,6 @@ const servicesGroups = [
       },
       {
         image: sahil,
-        title: "",
-        label: "",
-        aspect: "1/1"
-      },
-      {
-        image: mejwani,
         title: "",
         label: "",
         aspect: "1/1"
