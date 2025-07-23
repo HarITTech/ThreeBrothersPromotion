@@ -55,12 +55,12 @@ const Footer = () => {
 
       <div className="grid gap-[40px] grid-cols-1 md:grid-cols-2 sm:grid-cols-2 justify-center max-w-[90%] mx-auto items-start">
         {/* Logo + Links */}
-        <div className="flex min-w-[500px] items-start gap-8">
+        <div className="flex min-w-[350px] items-start gap-6 md:gap-4 lg:gap-8">
           <Link to="/" className="flex items-center font-semibold text-lg select-none mb-4">
-            <img src={logo} alt="Logo" className="h-10 w-10" />
+            <img src={logo} alt="Logo" className="h-7 w-7 md:h-10 md:w-10 lg:h-10 lg:w-10" />
           </Link>
 
-          <div className="flex flex-col gap-1 min-w-[160px]">
+          <div className="flex flex-col gap-1">
             <h5 className="font-helvetica-bold text-[18px] mb-2">Quick Links</h5>
             <nav className="flex flex-col space-y-1 font-helvetica text-[16px]">
               {navItems.map((item) => (
@@ -75,7 +75,7 @@ const Footer = () => {
             </nav>
           </div>
 
-          <div className="flex flex-col gap-2 min-w-[160px]">
+          <div className="flex flex-col gap-2">
             <h5 className="font-helvetica-bold text-[18px] mb-2">Follow Us</h5>
             <nav className="flex flex-col space-y-1 font-helvetica text-[16px]">
               <a href="#" className="hover:text-[#FF6B00]">Facebook</a>
@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
 
         {/* Query Form */}
-        <div className="relative footer-query flex flex-col flex-grow min-w-[350px] w-full max-w-[500px]">
+        <div className="relative footer-query flex flex-col flex-grow min-w-[250px] w-full max-w-[500px]">
           <label htmlFor="query" className=" font-helvetica text-[30px]">Have any Query Feel Free to Ask</label>
           <input
             type="text"
