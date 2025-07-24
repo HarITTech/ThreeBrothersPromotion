@@ -1,6 +1,6 @@
 {
   "short_name": "Three Brothers Promotion",
-  "name": "Create React App Sample",
+  "name": "Three Brothers Promotion",
   "icons": [
     {
       "src": "main_logo.png",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://threebrotherspromotion.in",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
