@@ -11,6 +11,8 @@ import prathmeshTekale from '../assests/teamMembers/Prathmesh Tekale.jpg'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import vanshNaik from '../assests/teamMembers/Vansh naik.jpg'
+import piyushNinawe from '../assests/teamMembers/Piyush Ninawe.jpg'
+import adityaHedau from '../assests/teamMembers/Aditya Hedau.jpg'
 
 const Team = () => {
 
@@ -31,18 +33,18 @@ const Team = () => {
       alt: 'Portrait of Pratik Kowale, Marketing Strategist, smart casual shirt',
     },
     {
-      name: 'Sanket Dandekar',
-      role: 'E-commerce Expert',
-      description: 'Sanket Dandekar is a specialist in e-commerce solutions, helping brands grow across digital marketplaces with smart strategies, optimized listings, and seamless order management.',
-      img: sanketDandekar,
-      alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
-    },
-    {
       name: 'Deepak Verma',
       role: 'Multimedia Specialist',
       description: 'Deepak Verma is a creative powerhouse with a passion for visual storytelling. As a skilled multimedia specialist, he expertly blends video editing, motion graphics, animation, and sound design to produce high-impact content that captures attention and delivers results. Whether it is for promotional campaigns, social media, or brand identity, Deepak ensures every project is visually stunning and strategically aligned with the brand’s goals.',
       img: deepakVerma,
       alt: 'Deepak Verma',
+    },
+    {
+      name: 'Sanket Dandekar',
+      role: 'E-commerce Expert',
+      description: 'Sanket Dandekar is a specialist in e-commerce solutions, helping brands grow across digital marketplaces with smart strategies, optimized listings, and seamless order management.',
+      img: sanketDandekar,
+      alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
     },
     {
       name: 'Kasturi Nisal',
@@ -51,13 +53,13 @@ const Team = () => {
       img: expertOfSeo,
       alt: 'Kasturi nisal',
     },
-    // {
-    //   name: 'Joel Ugade',
-    //   role: 'Graphic Design Expert',
-    //   description: 'Joel Ugade is a creative graphic designer who transforms ideas into eye-catching visuals. With a strong sense of branding and design, he creates logos, banners, and marketing content that make a lasting impact.',
-    //   img: joelUgade,
-    //   alt: 'Joel Ugade',
-    // },
+    {
+      name: 'Joel Ugade',
+      role: 'Graphic Design Expert',
+      description: 'Joel Ugade is a creative graphic designer who transforms ideas into eye-catching visuals. With a strong sense of branding and design, he creates logos, banners, and marketing content that make a lasting impact.',
+      img: joelUgade,
+      alt: 'Joel Ugade',
+    },
     {
       name: 'Prathmesh Tekale',
       role: 'Cybersecurity Expert',
@@ -71,6 +73,22 @@ const Team = () => {
       description: 'Vansh Naik specializes in creating engaging animations and high-quality video edits. With a strong sense of timing, storytelling, and visual flow, he brings ideas to life through smooth transitions, effects, and creative motion graphics that captivate audiences.',
       img: vanshNaik,
       alt: 'Vansh Naik',
+    },
+    {
+      name: 'Piyush Ninawe',
+      rolem: 'Collaborating Partner From Harit Tech',
+      role: 'Software Service Provider',
+      description: 'Piyush Ninawe is a full stack developer skilled in web, app, and AI-ML development. At HarIT Tech Solution, he builds smart digital solutions—from websites and mobile apps to AI automation and custom software services—for businesses of all sizes.',
+      img: piyushNinawe,
+      alt: 'Portrait of Piyush Ninawe, Creative Director of Harit Tech Solution, smiling and wearing a business casual shirt',
+    },
+    {
+      name: 'Aditya Hedau',
+      rolem: 'Collaborating Partner From Harit Tech',
+      role: 'Web Developer',
+      description: 'Aditya Hedau is a full stack developer with expertise in MEAN stack development, specializing in backend solutions using Node.js. At Harit Tech Solution, he crafts modern, scalable web applications—leveraging Angular, Bootstrap, and custom APIs—to deliver fast, user-friendly digital experiences for businesses across industries.',
+      img: adityaHedau,
+      alt: 'Portrait of Aditya Hedau, Collaborating Partener from Harit Tech Solution, smiling and wearing a business casual shirt',
     },
   ];
 
