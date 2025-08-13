@@ -6,6 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import adityaYelane from '../assests/teamMembers/Aditya yelane.jpg'
 import deepakVerma from '../assests/teamMembers/Deepak Verma.jpg'
 import expertOfSeo from '../assests/teamMembers/Expert of seo.jpg'
+import expertOfSeoMeta from '../assests/teamMembers/Expert_of_seo_meta_ads.jpg'
 import joelUgade from '../assests/teamMembers/Joel ugade.jpg'
 import prathmeshTekale from '../assests/teamMembers/Prathmesh Tekale.jpg'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
@@ -38,6 +39,13 @@ const Team = () => {
       description: 'Deepak Verma is a creative powerhouse with a passion for visual storytelling. As a skilled multimedia specialist, he expertly blends video editing, motion graphics, animation, and sound design to produce high-impact content that captures attention and delivers results. Whether it is for promotional campaigns, social media, or brand identity, Deepak ensures every project is visually stunning and strategically aligned with the brand’s goals.',
       img: deepakVerma,
       alt: 'Deepak Verma',
+    },
+    {
+      name: 'Aniket Borker',
+      role: 'SEO & Meta Ads Expert',
+      description: 'An expert in Search Engine Optimization (SEO) and Meta Ads, they specialize in boosting online visibility and driving targeted traffic. With data-driven strategies, they help businesses rank higher on search engines and run high-performing ad campaigns that deliver measurable results.',
+      img: expertOfSeoMeta,
+      alt: 'Aniket Borker',
     },
     {
       name: 'Sanket Dandekar',
