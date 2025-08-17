@@ -41,6 +41,13 @@ const Team = () => {
       alt: 'Deepak Verma',
     },
     {
+      name: 'Kasturi Nisal',
+      role: 'SEO & Google Ads Expert',
+      description: 'An expert in Search Engine Optimization (SEO) and Google Ads, they specialize in boosting online visibility and driving targeted traffic. With data-driven strategies, they help businesses rank higher on search engines and run high-performing ad campaigns that deliver measurable results.',
+      img: expertOfSeo,
+      alt: 'Kasturi nisal',
+    },
+    {
       name: 'Aniket Borker',
       role: 'SEO & Meta Ads Expert',
       description: 'An expert in Search Engine Optimization (SEO) and Meta Ads, they specialize in boosting online visibility and driving targeted traffic. With data-driven strategies, they help businesses rank higher on search engines and run high-performing ad campaigns that deliver measurable results.',
@@ -53,13 +60,6 @@ const Team = () => {
       description: 'Sanket Dandekar is a specialist in e-commerce solutions, helping brands grow across digital marketplaces with smart strategies, optimized listings, and seamless order management.',
       img: sanketDandekar,
       alt: 'Portrait of Sanket Dandekar, SEO Specialist, professional headshot',
-    },
-    {
-      name: 'Kasturi Nisal',
-      role: 'SEO & Google Ads Expert',
-      description: 'An expert in Search Engine Optimization (SEO) and Google Ads, they specialize in boosting online visibility and driving targeted traffic. With data-driven strategies, they help businesses rank higher on search engines and run high-performing ad campaigns that deliver measurable results.',
-      img: expertOfSeo,
-      alt: 'Kasturi nisal',
     },
     {
       name: 'Joel Ugade',
