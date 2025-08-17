@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import socialMediaMarketing from '../assests/serviceImages/social media marketing.jpg';
 import seoImg from '../assests/serviceImages/searchEngineOpt.jpg';
 import googleAds from '../assests/serviceImages/google ads.jpg';
 import graphicDesign from '../assests/serviceImages/graphicDesign.jpg';
 import website from '../assests/serviceImages/website.jpg';
 import eCom from '../assests/serviceImages/e-com.jpg';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 
 const services = [
@@ -70,11 +71,11 @@ const services = [
 ]
 const Services = () => {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleCardClick = () => {
-    navigate("/services"); // 👈 redirects to /services page
-  };
+  // const handleCardClick = () => {
+  //   navigate("/services"); // 👈 redirects to /services page
+  // };
 
   return (
     <div className='bg-[#FEFEFE45] backdrop-blur max-w-full pt-[20px] pb-[40px]'>
@@ -125,9 +126,10 @@ const Services = () => {
 
         <div className="grid gap-[40px] grid-cols-[repeat(auto-fit,minmax(220px,380px))] justify-center max-w-[100%] mx-auto">
           {services.map((service) => (
-            <div
+            <Link
+           to="/services"
               key={service.id}
-              onClick={handleCardClick}
+              // onClick={handleCardClick}
               className={`relative group overflow-hidden rounded-xl border-[2px] border-[#e6e6e6] bg-[#202041] text-white shadow-lg hover:shadow-[#21264096] transition-all duration-500 ${service.aspectRatio}`}
             >
               {/* Image */}
@@ -151,7 +153,7 @@ const Services = () => {
                   {service.title}
                 </h3>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
