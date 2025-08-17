@@ -127,10 +127,10 @@ const Services = () => {
         <div className="grid gap-[40px] grid-cols-[repeat(auto-fit,minmax(220px,380px))] justify-center max-w-[100%] mx-auto">
           {services.map((service) => (
             <Link
-           to="/services"
+              to="/services"
               key={service.id}
               // onClick={handleCardClick}
-              className={`relative group overflow-hidden rounded-xl border-[2px] border-[#e6e6e6] bg-[#202041] text-white shadow-lg hover:shadow-[#21264096] transition-all duration-500 ${service.aspectRatio}`}
+              className={`relative group overflow-hidden rounded-lg border-[2px] border-[#e6e6e6] bg-[#202041] text-white shadow-lg hover:shadow-[#21264096] transition-all duration-500 ${service.aspectRatio}`}
             >
               {/* Image */}
               <img
