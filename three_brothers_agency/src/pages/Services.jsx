@@ -50,33 +50,33 @@ Partner with us to automate, track, and grow your brand through powerful email s
     },
     {
       id: 4,
-      title: "Mobile App Development",
-      tagline: "Your Idea, Our Code — Apps That Inspire and Perform.",
-      image: mobileAppDev,
-      description: `Transform your vision into a powerful mobile app with our expert development team.
-We craft intuitive, high-performance apps for Android and iOS tailored to your business goals.
-From design to deployment, we build solutions that engage users and drive growth.`,
-    },
-    {
-      id: 5,
       title: "Photography",
       tagline: "Capture Moments That Tell Your Story.",
       image: photography,
       description: `Turn memories into masterpieces with our professional photography services. Whether it’s a wedding, birthday, product launch, or a candid moment, we bring creativity and clarity to every shot. Our team specializes in wedding, product, birthday, candid photography, and cinematography—ensuring every frame reflects perfection. Book now to make every moment timeless.`,
     },
     {
-      id: 6,
+      id: 5,
       title: "E-commerce",
       tagline: "Skyrocket Your Sales on Every Marketplace.",
       image: eCom,
       description: `Take your online business to the next level with our expert e-commerce services. From product listing and optimization across all marketplaces to complete order fulfillment, competitor research, and sales strategy—everything you need to grow is in one place. We also help you with daily inventory tracking and business planning, so you stay ahead of trends and maximize profit. Let us handle the backend while you focus on scaling up.`,
     },
     {
-      id: 7,
+      id: 6,
       title: "Website Development",
       tagline: "Build Your Online Presence, One Click at a Time.",
       image: website,
       description: `We design professional websites tailored to your business needs—whether it's a simple static site or a fully dynamic one. Our packages include hosting, domain, updating services, email notifications, and backend integration for dynamic sites. With affordable pricing and complete support, we ensure your website not only looks great but performs seamlessly. Let us turn your online vision into reality.`,
+    },
+    {
+      id: 7,
+      title: "Mobile App Development",
+      tagline: "Your Idea, Our Code — Apps That Inspire and Perform.",
+      image: mobileAppDev,
+      description: `Transform your vision into a powerful mobile app with our expert development team.
+We craft intuitive, high-performance apps for Android and iOS tailored to your business goals.
+From design to deployment, we build solutions that engage users and drive growth.`,
     },
     {
       id: 8,

@@ -35,3 +35,15 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(34, 211, 238, 0.4); /* cyan-500/40 */
+  border-radius: 9999px;
+}
