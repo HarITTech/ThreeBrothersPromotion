@@ -13,6 +13,7 @@ import influencerMarketing from '../assests/serviceImages/influencerMarketing.jp
 import contentMarketing from '../assests/serviceImages/contentMarketing.jpg';
 import whatsappMarketing from '../assests/serviceImages/whatsappMarketing.jpg';
 import affiliateImg from '../assests/serviceImages/A_M.png';
+import videoEditing from '../assests/serviceImages/videoMarketing.jpg';
 // import { Pencil } from "lucide-react";
 // import servicesData from "./servicesData";
 
@@ -132,7 +133,14 @@ From design to deployment, we build solutions that engage users and drive growth
 💸 Ideal for bloggers, influencers, and digital marketers looking to monetize their content. No product handling, no inventory—just smart promotion.
 
 ✨ Start affiliate marketing today with Three Brothers Promotion and turn your traffic into revenue.`,
-    }
+    },
+      {
+        id: 15,
+        title: "Video Editing",
+        tagline: "Transform Your Raw Footage into Stunning Visual Stories.",
+        image: videoEditing,
+        description: `Bring your ideas to life with our expert video editing services. From YouTube video editing and color correction to travel vlogs, corporate videos, and ad campaigns—we handle it all. Whether you need polished post-production for commercials, engaging Instagram reels, or viral YouTube Shorts, our team ensures your content stands out. Get high-quality edits that captivate your audience and elevate your brand’s presence online.`,
+      },
     // {
     //   id: 8,
     //   title: "Video Marketing",

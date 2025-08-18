@@ -32,6 +32,9 @@
   color: #61dafb;
 }
 
+html, body { scroll-behavior: auto !important; }
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -49,15 +52,4 @@
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;     /* Firefox */
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background-color: rgba(34, 211, 238, 0.4); /* cyan-500/40 */
-  border-radius: 9999px;
 }

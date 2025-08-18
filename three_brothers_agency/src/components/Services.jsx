@@ -5,7 +5,7 @@ import seoImg from '../assests/serviceImages/searchEngineOpt.jpg';
 import googleAds from '../assests/serviceImages/google ads.jpg';
 import graphicDesign from '../assests/serviceImages/graphicDesign.jpg';
 import website from '../assests/serviceImages/website.jpg';
-import eCom from '../assests/serviceImages/e-com.jpg';
+import videoEditing from '../assests/serviceImages/videoMarketing.jpg';
 // import { useNavigate } from "react-router-dom";
 
 
@@ -60,12 +60,12 @@ const services = [
     aspectRatio: "aspect-[4/5]",
   },
   {
-    id: 6,
-    title: "E-commerce",
-    tagline: "Skyrocket Your Sales on Every Marketplace.",
-    image: eCom,
-    alt: "E-commerce Services",
-    description: `Take your online business to the next level with our expert e-commerce services. From product listing and optimization across all marketplaces to complete order fulfillment, competitor research, and sales strategy—everything you need to grow is in one place. We also help you with daily inventory tracking and business planning, so you stay ahead of trends and maximize profit. Let us handle the backend while you focus on scaling up.`,
+    id: 7,
+    title: "Video Editing",
+    tagline: "Transform Your Raw Footage into Stunning Visual Stories.",
+    image: videoEditing,
+    alt: "Professional Video Editing Services",
+    description: `Bring your ideas to life with our expert video editing services. From YouTube video editing and color correction to travel vlogs, corporate videos, and ad campaigns—we handle it all. Whether you need polished post-production for commercials, engaging Instagram reels, or viral YouTube Shorts, our team ensures your content stands out. Get high-quality edits that captivate your audience and elevate your brand’s presence online.`,
     aspectRatio: "aspect-[4/5]",
   },
 ]
