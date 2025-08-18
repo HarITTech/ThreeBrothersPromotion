@@ -1,3 +1,4 @@
+
 // import { useEffect } from "react";
 // import { useLocation } from "react-router-dom";
 
@@ -41,7 +42,6 @@ export default function ScrollReset() {
 
   return null;
 }
-
 
 
 // import { useEffect } from "react";
