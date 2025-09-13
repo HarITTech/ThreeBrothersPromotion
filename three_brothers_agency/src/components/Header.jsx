@@ -32,7 +32,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#FEFEFE45] backdrop-blur sticky top-0 z-40 py-4">
+    <header className="backdrop-blur-sm fixed top-0 py-4 left-0 w-full z-50 ">
       <div className="mx-auto py-4 flex items-center justify-between px-7">
         {/* Logo */}
         <Link

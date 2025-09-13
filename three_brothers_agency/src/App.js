@@ -20,8 +20,8 @@ function App() {
   return (
     <Router>
        {/* ✅ Add ScrollToTop here */}
-       <ScrollToTop />
-      <div className="flex flex-col h-screen overflow-y-auto no-scrollbar z min-h-screen w-full bg-cover bg-no-repeat bg-center overflow-hidden"
+       <ScrollToTop/> 
+      <div className="flex flex-col overflow-y-auto no-scrollbar z min-h-screen w-full bg-cover bg-no-repeat bg-center overflow-hidden"
         style={{ backgroundImage: `url(${bgImage})` }}>
         {/* <div className="w-screen"> */}
         <Header />

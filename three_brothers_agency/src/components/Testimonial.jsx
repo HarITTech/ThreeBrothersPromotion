@@ -67,7 +67,7 @@ const Testimonial = () => {
   const { image, alt, text, name, title, platform, stars } = testimonials[current];
 
   return (
-    <div className='bg-[#FEFEFE45] backdrop-blur max-w-full pb-[40px]'>
+    <div className='bg-[#FEFEFE45] backdrop-blur max-w-full pb-[40px] pt-28'>
       <section className="mb-24 mx-auto px-6 max-w-[90%]">
         <h3 className="section-heading text-center mb-12 text-[38px] font-helvetica">Testimonial</h3>
         <div className="bg-[#ff6b0237] rounded-xl lg:px-[60px] lg:pt-[60px] lg:pb-[40px] p-[20px] content-center items-center border border-[#ede6e0] shadow-lg justify-center flex flex-col">

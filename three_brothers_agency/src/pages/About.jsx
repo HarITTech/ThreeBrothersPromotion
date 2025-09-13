@@ -6,7 +6,7 @@ import seoLogo from '../assests/seo_ads_service.png';
 
 const About = () => {
   return (
-    <div className='bg-[#FEFEFE45] backdrop-blur pb-[60px] border-b-[1px] border-[#eeeeeeb0]'>
+    <div className='bg-[#FEFEFE45] backdrop-blur pb-[60px] border-b-[1px] pt-44 border-[#eeeeeeb0]'>
       <section className="text-center py-16 px-6 relative max-w-full mx-auto">
         <div className="flex flex-col text-center mt-0 items-center justify-center">
           <h1 className="text-[50px] sm:text-[50px] font-helvetica-bold bg-gradient-to-b from-[#4543CC] to-[#955E7F] text-transparent bg-clip-text">

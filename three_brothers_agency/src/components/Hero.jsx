@@ -10,7 +10,7 @@ import harittechBadge from '../assests/harittech_partner_logo.png';
 
 const Hero = () => {
   return (
-    <section className="text-center bg-[#FEFEFE45] backdrop-blur py-16 px-6 relative max-w-full mx-auto">
+    <section className="text-center bg-[#FEFEFE45] backdrop-blur pb-16 pt-44 px-6 relative max-w-full mx-auto">
       {/* <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-[#4543CC] via-[#955E7F] to-[#FF8800]">
         Optimize Your Ads <br /> For More Profit.
         <span

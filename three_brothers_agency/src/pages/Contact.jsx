@@ -67,7 +67,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#FEFEFE45] backdrop-blur pt-[20px] pb-[100px] border-b-[1px] border-[#eeeeeeb0] px-5">
+    <div className="flex flex-col items-center justify-center pt-32 bg-[#FEFEFE45] backdrop-blur pb-[100px] border-b-[1px] border-[#eeeeeeb0] px-5">
       <ToastContainer position="bottom-center" autoClose={3000} />
       <h2 className="text-[38px] font-bold mb-[60px]">Contact Us</h2>
       <form className="w-full max-w-md space-y-6" onSubmit={handleSubmit}>

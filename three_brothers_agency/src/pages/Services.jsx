@@ -158,7 +158,7 @@ From design to deployment, we build solutions that engage users and drive growth
   ];
 
   return (
-    <section className="text-center bg-[#FEFEFE45] backdrop-blur py-16 relative max-w-full mx-auto border-b-[1px] border-[#eeeeeeb0]">
+    <section className="text-center bg-[#FEFEFE45] backdrop-blur pt-44 pb-16 relative max-w-full mx-auto border-b-[1px] border-[#eeeeeeb0]">
       {/* <div className="text-center mt-10"> */}
 
       <div className="relative inline-block text-center mt-10">

@@ -108,7 +108,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="bg-[#FEFEFE45] backdrop-blur pb-[60px] border-b-[1px] border-[#eeeeeeb0] font-helvetica min-h-screen text-black">
+    <div className="bg-[#FEFEFE45] backdrop-blur pt-44 pb-[60px] border-b-[1px] border-[#eeeeeeb0] font-helvetica min-h-screen text-black">
       {/* Hero Section */}
       <section className="flex flex-col  text-center py-16 px-6 items-center ">
         <h1 className="text-[70px] max-w-6xl font-helvetica-bold bg-gradient-to-b from-[#4543CC] via-[#955E7F] to-[#FF8800] text-transparent bg-clip-text">

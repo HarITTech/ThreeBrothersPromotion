@@ -8,7 +8,7 @@ console.log("servicesGroups", servicesGroups);
 const Strenths = () => {
   
   return (
-    <div className='bg-[#FEFEFE45] backdrop-blur pb-[40px] border-b-[1px] border-[#eeeeeeb0] font-helvetica min-h-screen text-black'>
+    <div className='bg-[#FEFEFE45] backdrop-blur pb-[40px] border-b-[1px] pt-28 border-[#eeeeeeb0] font-helvetica min-h-screen text-black'>
       <section className="text-center items-center py-6 px-4">
         {/* <h2 className="text-[38px] font-bold mb-[40px]">Our Works</h2> */}
         <h1 className="text-[40px] font-helvetica-bold bg-gradient-to-b from-[#4543CC] via-[#955E7F] to-[#FF8800] text-transparent bg-clip-text mb-[40px]">
