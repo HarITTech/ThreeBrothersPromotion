@@ -57,10 +57,12 @@ const services = [
     image: website,
     alt: "Website Development Service",
     description: `We design professional websites tailored to your business needs—whether it's a simple static site or a fully dynamic one. Our packages include hosting, domain, updating services, email notifications, and backend integration for dynamic sites. With affordable pricing and complete support, we ensure your website not only looks great but performs seamlessly. Let us turn your online vision into reality.`,
+    collaboration: `Our Last Project Build By Harit Tech Solution`,
+    project1: `Sahil Construction Static Website`,
     aspectRatio: "aspect-[4/5]",
   },
   {
-    id: 7,
+    id: 6,
     title: "Video Editing",
     tagline: "Transform Your Raw Footage into Stunning Visual Stories.",
     image: videoEditing,
@@ -145,6 +147,12 @@ const Services = () => {
                   {service.tagline}
                 </h4>
                 <p className="md:text-sm text-xs font-helvetica-oblique text-gray-800">{service.description}</p>
+                <a href="https://harittech.in/" className="md:text-sm text-xs font-helvetica-bold no-underline text-[#212640] leading-relaxed">
+                {service.collaboration}
+              </a>
+              <p className="md:text-sm text-xs font-helvetica text-[#212640] leading-relaxed">
+                {service.project1}
+              </p>
               </div>
 
               {/* Title (always visible at bottom) */}

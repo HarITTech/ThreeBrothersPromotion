@@ -32,6 +32,8 @@ const Services = () => {
 🔍 Whether you're a startup or an established brand, our expert strategies in on-page SEO, link building, and content planning are designed to grow your business—organically.
 
 📈 Start from just ₹7,999/month and experience real, measurable results.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 2,
@@ -39,6 +41,8 @@ const Services = () => {
       tagline: "Build Your Brand Where It Matters – On Social Media.",
       image: socialMediaMarketing,
       description: `Boost your brand’s presence on Instagram and Facebook with our Social Media Marketing packages. From eye-catching reels and engaging stories to strategic Meta Ads and full page management, we offer everything you need to grow online. Plans start at just ₹6,999—perfect for any business looking to connect, engage, and convert.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 3,
@@ -48,6 +52,8 @@ const Services = () => {
       description: `Boost your business with result-driven email marketing solutions.
 From targeted campaigns to engaging designs, we help you convert leads into loyal customers.
 Partner with us to automate, track, and grow your brand through powerful email strategies.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 4,
@@ -55,6 +61,8 @@ Partner with us to automate, track, and grow your brand through powerful email s
       tagline: "Capture Moments That Tell Your Story.",
       image: photography,
       description: `Turn memories into masterpieces with our professional photography services. Whether it’s a wedding, birthday, product launch, or a candid moment, we bring creativity and clarity to every shot. Our team specializes in wedding, product, birthday, candid photography, and cinematography—ensuring every frame reflects perfection. Book now to make every moment timeless.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 5,
@@ -62,13 +70,18 @@ Partner with us to automate, track, and grow your brand through powerful email s
       tagline: "Skyrocket Your Sales on Every Marketplace.",
       image: eCom,
       description: `Take your online business to the next level with our expert e-commerce services. From product listing and optimization across all marketplaces to complete order fulfillment, competitor research, and sales strategy—everything you need to grow is in one place. We also help you with daily inventory tracking and business planning, so you stay ahead of trends and maximize profit. Let us handle the backend while you focus on scaling up.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 6,
       title: "Website Development",
       tagline: "Build Your Online Presence, One Click at a Time.",
       image: website,
-      description: `We design professional websites tailored to your business needs—whether it's a simple static site or a fully dynamic one. Our packages include hosting, domain, updating services, email notifications, and backend integration for dynamic sites. With affordable pricing and complete support, we ensure your website not only looks great but performs seamlessly. Let us turn your online vision into reality.`,
+      description: `We design professional websites tailored to your business needs—whether it's a simple static site or a fully dynamic one. Our packages include hosting, domain, updating services, email notifications, and backend integration for dynamic sites. With affordable pricing and complete support. Let us turn your online vision into reality.`,
+      collaboration: `Our Last Project Build By Harit Tech Solution`,
+      project1: `Sahil Construction Static Website`,
+      // project2: ``,
     },
     {
       id: 7,
@@ -78,6 +91,8 @@ Partner with us to automate, track, and grow your brand through powerful email s
       description: `Transform your vision into a powerful mobile app with our expert development team.
 We craft intuitive, high-performance apps for Android and iOS tailored to your business goals.
 From design to deployment, we build solutions that engage users and drive growth.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 8,
@@ -85,6 +100,8 @@ From design to deployment, we build solutions that engage users and drive growth
       tagline: "Your Security, Our Priority.",
       image: cyberSecurity,
       description: `Protect your business from cyber threats with our expert cybersecurity solutions. We offer end-to-end services including network security, vulnerability assessment, phishing protection, malware awareness, and SEIM operations. Whether you’re on Windows or Linux, our team ensures your systems remain secure and your data protected—because your business deserves peace of mind.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 9,
@@ -92,6 +109,8 @@ From design to deployment, we build solutions that engage users and drive growth
       tagline: "Maximize Every Click with Strategic Google Ads!",
       image: googleAds,
       description: `Drive instant traffic and quality leads with our expert Google Ads management. From keyword research to strategy, campaign setup, tracking, and optimization — we ensure your ads reach the right audience at the right time. Our goal is simple: get you the best ROI with data-driven ad performance.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 10,
@@ -99,6 +118,8 @@ From design to deployment, we build solutions that engage users and drive growth
       tagline: "Creative Designs That Define Your Brand!",
       image: graphicDesign,
       description: `From logos to brochures, our graphic design services cover everything your brand needs to stand out. Whether it’s social media creatives, business cards, or marketing materials, we bring visual ideas to life that leave a lasting impression and boost your brand identity.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 11,
@@ -106,6 +127,8 @@ From design to deployment, we build solutions that engage users and drive growth
       tagline: "Turn Influence into Impact.",
       image: influencerMarketing,
       description: `Boost your brand visibility with our influencer marketing services. We connect you with the right influencers, manage campaigns, and create content that builds trust and drives engagement. Perfect for reaching your audience on platforms like Instagram and YouTube.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 12,
@@ -113,6 +136,8 @@ From design to deployment, we build solutions that engage users and drive growth
       tagline: "Create. Connect. Convert.",
       image: contentMarketing,
       description: `We help your brand grow with smart content that engages and converts. From planning strategies to using videos, paid ads, and trends, we create content that connects with your audience. Our team also tracks performance to ensure continuous improvement and better results.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 13,
@@ -120,6 +145,8 @@ From design to deployment, we build solutions that engage users and drive growth
       tagline: "Reach Your Audience Where They Are.",
       image: whatsappMarketing,
       description: `Connect with customers instantly using our WhatsApp marketing services. We help you send promotions, updates, and personalized messages with ease. Share rich media and build stronger customer relationships through the world’s most used messaging app.`,
+      collaboration: ``,
+      project1: ``,
     },
     {
       id: 14,
@@ -133,14 +160,18 @@ From design to deployment, we build solutions that engage users and drive growth
 💸 Ideal for bloggers, influencers, and digital marketers looking to monetize their content. No product handling, no inventory—just smart promotion.
 
 ✨ Start affiliate marketing today with Three Brothers Promotion and turn your traffic into revenue.`,
+      collaboration: ``,
+      project1: ``,
     },
-      {
-        id: 15,
-        title: "Video Editing",
-        tagline: "Transform Your Raw Footage into Stunning Visual Stories.",
-        image: videoEditing,
-        description: `Bring your ideas to life with our expert video editing services. From YouTube video editing and color correction to travel vlogs, corporate videos, and ad campaigns—we handle it all. Whether you need polished post-production for commercials, engaging Instagram reels, or viral YouTube Shorts, our team ensures your content stands out. Get high-quality edits that captivate your audience and elevate your brand’s presence online.`,
-      },
+    {
+      id: 15,
+      title: "Video Editing",
+      tagline: "Transform Your Raw Footage into Stunning Visual Stories.",
+      image: videoEditing,
+      description: `Bring your ideas to life with our expert video editing services. From YouTube video editing and color correction to travel vlogs, corporate videos, and ad campaigns—we handle it all. Whether you need polished post-production for commercials, engaging Instagram reels, or viral YouTube Shorts, our team ensures your content stands out. Get high-quality edits that captivate your audience and elevate your brand’s presence online.`,
+      collaboration: ``,
+      project1: ``,
+    },
     // {
     //   id: 8,
     //   title: "Video Marketing",
@@ -219,7 +250,7 @@ From design to deployment, we build solutions that engage users and drive growth
         </div>
       </div> */}
       <div className="space-y-10 min-w-6xl w-[90%] mx-auto mt-[10px] mb-[50px]">
-        {servicesData.map(({ id, title, tagline, image, description }) => (
+        {servicesData.map(({ id, title, tagline, image, description, collaboration, project1}) => (
           <div
             key={id}
             className="bg-[#dee3e936] backdrop-blur border border-[#fff] rounded-lg shadow-lg hover:shadow-lg transition-shadow duration-300 p-[30px] grid md:grid-cols-2 items-center"
@@ -232,8 +263,16 @@ From design to deployment, we build solutions that engage users and drive growth
             <div className="">
               <h3 className="text-[48px] font-helvetica-bold text-[#212640] mb-1">{title}</h3>
               <p className="text-[20px] font-helvetica text-[#212640] mb-4">{tagline}</p>
-              <p className="text-[23px] font-helvetica text-[#212640] leading-relaxed">
+              <p className="text-[22px] font-helvetica text-[#212640] leading-relaxed">
                 {description}
+                {/* <span className="text-blue-500 font-medium cursor-pointer"> Read more...</span> */}
+              </p>
+              <a href="https://harittech.in/" className="text-[22px] font-helvetica-bold no-underline text-[#212640] leading-relaxed">
+                {collaboration}
+                {/* <span className="text-blue-500 font-medium cursor-pointer"> Read more...</span> */}
+              </a>
+              <p className="text-[21px] font-helvetica text-[#212640] leading-relaxed">
+                {project1}
                 {/* <span className="text-blue-500 font-medium cursor-pointer"> Read more...</span> */}
               </p>
             </div>
