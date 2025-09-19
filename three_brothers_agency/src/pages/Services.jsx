@@ -80,8 +80,8 @@ Partner with us to automate, track, and grow your brand through powerful email s
       image: website,
       description: `We design professional websites tailored to your business needs—whether it's a simple static site or a fully dynamic one. Our packages include hosting, domain, updating services, email notifications, and backend integration for dynamic sites. With affordable pricing and complete support. Let us turn your online vision into reality.`,
       collaboration: `Our Last Project Build By Harit Tech Solution`,
-      project1: `Sahil Construction Static Website`,
-      // project2: ``,
+      project1: `Influx Solar & Sahil Construction Static Website`,
+      // project2: `Influx Solar`,
     },
     {
       id: 7,
