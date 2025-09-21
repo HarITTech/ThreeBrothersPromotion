@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import AEH from '../assests/strenths/logos/AEH.jpg'
 import chetana from '../assests/strenths/logos/chetana.jpg'
 import gym from '../assests/strenths/logos/gym.jpg'
@@ -20,6 +20,11 @@ import Mejwan7 from '../assests/strenths/banner/Mejwan7.jpg'
 import Mejwan8 from '../assests/strenths/banner/Mejwan8.jpg'
 import Mejwan6 from '../assests/strenths/banner/Mejwan6.png'
 import Mejwan5 from '../assests/strenths/banner/Mejwan5.png'
+import Mejwan9 from '../assests/strenths/banner/Mejwan9.jpg'
+import m1 from '../assests/strenths/banner/m1.png'
+import m2 from '../assests/strenths/banner/m2.png'
+import m3 from '../assests/strenths/banner/m3.png'
+import m4 from '../assests/strenths/banner/m4.png'
 import politics1 from '../assests/strenths/banner/politics1.jpg'
 import politics2 from '../assests/strenths/banner/politics2.jpg'
 import politics3 from '../assests/strenths/banner/politics3.jpg'
@@ -691,6 +696,36 @@ const servicesGroups = [
         title: "",
         label: "",
         aspect: "9/16"
+      },
+      {
+        image: m1,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: m2,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: m3,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: m4,
+        title: "",
+        label: "",
+        aspect: "5/3"
+      },
+      {
+        image: Mejwan9,
+        title: "",
+        label: "",
+        aspect: "4/5"
       },
       {
         image: Mejwan3,
