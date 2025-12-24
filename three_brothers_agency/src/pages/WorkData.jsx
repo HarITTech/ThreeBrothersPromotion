@@ -102,11 +102,67 @@ import jioMart3 from '../assests/strenths/banner/jioMart3.jpg'
 // import jioMart4 from '../assests/strenths/banner/jioMart4.jpg'
 import jioMart5 from '../assests/strenths/banner/jioMart5.jpg'
  
+import ban1 from '../assests/strenths/banner/ban1.jpg'
+import ban2 from '../assests/strenths/banner/ban2.jpg'
+import ban3 from '../assests/strenths/banner/ban3.jpg'
+import ban4 from '../assests/strenths/banner/ban4.jpg'
+import ban5 from '../assests/strenths/banner/ban5.jpg'
+import ban6 from '../assests/strenths/banner/ban6.jpg'
+import ban7 from '../assests/strenths/banner/ban7.jpg'
+import ban8 from '../assests/strenths/banner/ban8.jpg'
 
 const servicesGroups = [
   {
     category: "Political Banners",
     services: [
+      {
+        image: ban1,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: ban2,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: ban3,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: ban4,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: ban5,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: ban6,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: ban7,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
+      {
+        image: ban8,
+        title: "",
+        label: "",
+        aspect: "4/5"
+      },
       {
         image: politics1,
         title: "",

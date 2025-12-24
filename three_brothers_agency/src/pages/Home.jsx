@@ -5,6 +5,7 @@ import Projects from '../components/Projects'
 import Team from '../components/Team'
 import Testimonial from '../components/Testimonial'
 import GrowthStrategiesSection from '../components/GrowthStrategiesSection'
+import Strength from '../components/Strength'
 // import Header from '../components/Header'
 // import Footer from '../components/Footer'
 
@@ -13,6 +14,7 @@ const home = () => {
     <div className='w-screen '>
       {/* <Header/> */}
       <Hero/>
+      <Strength/>
       <Services/>
       <Projects/>
       <Team/>
