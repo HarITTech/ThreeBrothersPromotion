@@ -5,11 +5,11 @@ import React from 'react';
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
-import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
-import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
+// import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
+// import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import adityaYelane from '../assests/teamMembers/Aditya yelane.jpg'
 
-import expertOfSeo from '../assests/teamMembers/Expert of seo.jpg'
+// import expertOfSeo from '../assests/teamMembers/Expert of seo.jpg'
 
 // import deepakVerma from '../assests/teamMembers/Deepak Verma.jpg'
 

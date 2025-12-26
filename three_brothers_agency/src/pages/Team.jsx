@@ -12,8 +12,8 @@ import prathmeshTekale from '../assests/teamMembers/Prathmesh Tekale.jpg'
 import pratikKawale from '../assests/teamMembers/Pratik kawale.jpg'
 import sanketDandekar from '../assests/teamMembers/Sanket Dandekar.png'
 import vanshNaik from '../assests/teamMembers/Vansh naik.jpg'
-import piyushNinawe from '../assests/teamMembers/Piyush Ninawe.jpg'
-import adityaHedau from '../assests/teamMembers/Aditya Hedau.jpg'
+// import piyushNinawe from '../assests/teamMembers/Piyush Ninawe.jpg'
+// import adityaHedau from '../assests/teamMembers/Aditya Hedau.jpg'
 
 const Team = () => {
 
@@ -82,22 +82,22 @@ const Team = () => {
       img: vanshNaik,
       alt: 'Vansh Naik',
     },
-    {
-      name: 'Piyush Ninawe',
-      rolem: 'Collaborating Partner From Harit Tech',
-      role: 'Software Service Provider',
-      description: 'Piyush Ninawe is a full stack developer skilled in web, app, and AI-ML development. At HarIT Tech Solution, he builds smart digital solutions—from websites and mobile apps to AI automation and custom software services—for businesses of all sizes.',
-      img: piyushNinawe,
-      alt: 'Portrait of Piyush Ninawe, Creative Director of Harit Tech Solution, smiling and wearing a business casual shirt',
-    },
-    {
-      name: 'Aditya Hedau',
-      rolem: 'Collaborating Partner From Harit Tech',
-      role: 'Web Developer',
-      description: 'Aditya Hedau is a full stack developer with expertise in MEAN stack development, specializing in backend solutions using Node.js. At Harit Tech Solution, he crafts modern, scalable web applications—leveraging Angular, Bootstrap, and custom APIs—to deliver fast, user-friendly digital experiences for businesses across industries.',
-      img: adityaHedau,
-      alt: 'Portrait of Aditya Hedau, Collaborating Partener from Harit Tech Solution, smiling and wearing a business casual shirt',
-    },
+    // {
+    //   name: 'Piyush Ninawe',
+    //   rolem: 'Collaborating Partner From Harit Tech',
+    //   role: 'Software Service Provider',
+    //   description: 'Piyush Ninawe is a full stack developer skilled in web, app, and AI-ML development. At HarIT Tech Solution, he builds smart digital solutions—from websites and mobile apps to AI automation and custom software services—for businesses of all sizes.',
+    //   img: piyushNinawe,
+    //   alt: 'Portrait of Piyush Ninawe, Creative Director of Harit Tech Solution, smiling and wearing a business casual shirt',
+    // },
+    // {
+    //   name: 'Aditya Hedau',
+    //   rolem: 'Collaborating Partner From Harit Tech',
+    //   role: 'Web Developer',
+    //   description: 'Aditya Hedau is a full stack developer with expertise in MEAN stack development, specializing in backend solutions using Node.js. At Harit Tech Solution, he crafts modern, scalable web applications—leveraging Angular, Bootstrap, and custom APIs—to deliver fast, user-friendly digital experiences for businesses across industries.',
+    //   img: adityaHedau,
+    //   alt: 'Portrait of Aditya Hedau, Collaborating Partener from Harit Tech Solution, smiling and wearing a business casual shirt',
+    // },
   ];
 
   return (
